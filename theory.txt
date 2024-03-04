@@ -1,0 +1,24 @@
+****  Types of Packages and installs. *******
+____________________________________________
+
+npm install slugify
+
+npm install nodemon --save-dev
+
+npm i nodemon --global
+
+//*********** versoin description ***************** //
+
+ "devDependencies": {
+        "nodemon": "^3.0.2"
+      }
+
+The version number ^3.0.2 for nodemon uses the `caret version range specifier.` This specifier allows a range of compatible versions to be installed, ensuring you receive bug fixes and improvements while maintaining compatibility with your project.
+
+Here's a breakdown of what each number in the version number represents:
+    3: Major version. Major changes introducing new features or breaking changes.
+    0: Minor version. Smaller changes, often bug fixes or improvements.
+    2: Patch version. Minor bug fixes or improvements.
+
+//
+Download express
